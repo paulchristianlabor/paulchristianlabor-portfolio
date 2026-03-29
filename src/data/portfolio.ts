@@ -67,15 +67,8 @@ export const projects: ProjectItem[] = [
   {
     title: 'Coffee Shop Website',
     summary:
-      'A modern landing page built with v0 by Vercel for AI-assisted UI generation and rapid prototyping.',
-    tech: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Tailwind CSS',
-      'shadcn/ui',
-      'Radix UI',
-    ],
+      'A modern landing page for a coffee brand focused on clean design and smooth user experience.',
+    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
     image: projectAtlas,
     imageAlt: 'Coffee Shop Website project preview image.',
     liveUrl: '#',
@@ -84,8 +77,8 @@ export const projects: ProjectItem[] = [
   {
     title: 'Gamer Website',
     summary:
-      'A landing page developed using Replit, focused on AI tools and modern frontend setup experimentation.',
-    tech: ['Vite', 'TypeScript', 'React'],
+      'A dynamic landing page built for gaming content with a bold and responsive interface.',
+    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
     image: projectBeacon,
     imageAlt: 'Gamer Website project preview image.',
     liveUrl: '#',
