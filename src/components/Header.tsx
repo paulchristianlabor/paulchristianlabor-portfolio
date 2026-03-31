@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 import { navigation, profile } from '../data/portfolio'
 
@@ -39,15 +41,7 @@ export function Header() {
             onClick={() => setIsOpen((open) => !open)}
           >
             <span className="sr-only">Menu</span>
-            <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
-              <path
-                d={isOpen ? 'M6 6l12 12M18 6L6 18' : 'M4 7h16M4 12h16M4 17h16'}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeWidth="1.8"
-              />
-            </svg>
+            <FontAwesomeIcon icon={isOpen ? faXmark : faBars} className="h-5 w-5" aria-hidden="true" />
           </button>
         </div>
 

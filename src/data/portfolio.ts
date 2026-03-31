@@ -1,5 +1,5 @@
-import projectAtlas from '../assets/images/project-atlas.jpg'
-import projectBeacon from '../assets/images/project-beacon.jpg'
+import projectCoffeeShop from '../assets/images/project-coffee-shop.png'
+import projectGamer from '../assets/images/project-gamer.png'
 
 export type NavItem = {
   label: string
@@ -18,15 +18,11 @@ export type ProjectItem = {
   image: string
   imageAlt: string
   liveUrl: string
-  repoUrl: string
 }
 
 export const profile = {
   name: 'Paul Christian Labor',
   role: 'Web Developer',
-  tagline: 'Building clean and responsive web interfaces.',
-  intro: 'Focused on performance and simplicity.',
-  location: 'Modern frontend with React and TypeScript.',
 }
 
 export const navigation: NavItem[] = [
@@ -68,21 +64,63 @@ export const projects: ProjectItem[] = [
     title: 'Coffee Shop Website',
     summary:
       'A modern landing page for a coffee brand focused on clean design and smooth user experience.',
-    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-    image: projectAtlas,
+    tech: [
+      'Next.js 16',
+      'React 19',
+      'TypeScript',
+      'Tailwind CSS 4',
+      'PostCSS',
+      'Radix UI',
+      'Lucide React',
+      'Sonner',
+      'Recharts',
+      'React Hook Form',
+      'Zod',
+    ],
+    image: projectCoffeeShop,
     imageAlt: 'Coffee Shop Website project preview image.',
-    liveUrl: '#',
-    repoUrl: 'https://github.com/example/coffee-shop-website',
+    liveUrl: 'https://coffee-shop.paulchristianlabor.com',
   },
   {
     title: 'Gamer Website',
     summary:
       'A dynamic landing page built for gaming content with a bold and responsive interface.',
-    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    image: projectBeacon,
+    tech: [
+      'React 19',
+      'Vite 7',
+      'TypeScript',
+      'Tailwind CSS 4',
+      'TanStack Query',
+      'React Hook Form',
+      'Zod',
+    ],
+    image: projectGamer,
     imageAlt: 'Gamer Website project preview image.',
+    liveUrl: 'https://gamer.paulchristianlabor.com',
+  },
+  {
+    title: 'Project In Progress 01',
+    summary: 'In progress.',
+    tech: ['In progress'],
+    image: '/character-hero.jpg',
+    imageAlt: 'In progress project preview image.',
     liveUrl: '#',
-    repoUrl: 'https://github.com/example/gamer-website',
+  },
+  {
+    title: 'Project In Progress 02',
+    summary: 'In progress.',
+    tech: ['In progress'],
+    image: '/character-hero.jpg',
+    imageAlt: 'In progress project preview image.',
+    liveUrl: '#',
+  },
+  {
+    title: 'Project In Progress 03',
+    summary: 'In progress.',
+    tech: ['In progress'],
+    image: '/character-hero.jpg',
+    imageAlt: 'In progress project preview image.',
+    liveUrl: '#',
   },
 ]
 
