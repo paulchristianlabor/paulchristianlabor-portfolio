@@ -99,7 +99,7 @@ export const projects: ProjectItem[] = [
     liveUrl: 'https://gamer.paulchristianlabor.com',
   },
   {
-    title: 'Restaurant Landing Page',
+    title: 'Restaurant Website',
     summary:
       'An elegant fine dining restaurant website with reservation booking, curated menu showcase, photo gallery, and smooth Angular-powered interactions.',
     tech: [
@@ -114,7 +114,7 @@ export const projects: ProjectItem[] = [
     liveUrl: 'https://restaurant.paulchristianlabor.com',
   },
   {
-    title: 'Mobile App Landing Page',
+    title: 'Mobile Application Website',
     summary:
       'A clean, conversion-focused landing page for a mobile productivity app featuring feature highlights, testimonials, and a compelling call-to-action.',
     tech: [
@@ -131,7 +131,7 @@ export const projects: ProjectItem[] = [
     liveUrl: 'https://mobile-application.paulchristianlabor.com',
   },
   {
-    title: 'Gym Fitness Landing Page',
+    title: 'Gym Fitness Website',
     summary:
       'A high-energy fitness brand landing page built with Vue 3, featuring animated sections, program showcases, trainer profiles, and a contact form.',
     tech: [
