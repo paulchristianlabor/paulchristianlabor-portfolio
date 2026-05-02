@@ -1,5 +1,7 @@
 import projectCoffeeShop from '../assets/images/project-coffee-shop.png'
 import projectGamer from '../assets/images/project-gamer.png'
+import projectMobileApplication from '../assets/images/project-mobile-application.png'
+
 
 export type NavItem = {
   label: string
@@ -126,7 +128,7 @@ export const projects: ProjectItem[] = [
       'Radix UI',
       'Zod',
     ],
-    image: '/character-hero.jpg',
+    image: projectMobileApplication,
     imageAlt: 'Mobile App Landing Page project preview image.',
     liveUrl: 'https://mobile-application.paulchristianlabor.com',
   },
