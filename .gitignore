@@ -49,3 +49,8 @@ vite.config.d.ts
 
 # Local overrides
 *.local
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
